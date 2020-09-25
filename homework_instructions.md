@@ -48,13 +48,15 @@ Having an active and healthy commit history on GitHub is important for your futu
 
 #### App Setup
 
-1. Create a GitHub repo called `burger` and clone it to your computer.
+1. Create a GitHub repo called `burger` and clone it to your computer.   
+
+*******   RENAMED THE REPO.  RENAME THE MASTER FOLDER??
 
 2. Make a package.json file by running `npm init` from the command line.
 
 3. Install the Express npm package: `npm install express`.
 
-4. Create a server.js file.
+4. Create a server.js file.   *******   WHY IN THIS ORDER????
 
 5. Install the Handlebars npm package: `npm install express-handlebars`.
 
@@ -78,7 +80,10 @@ Having an active and healthy commit history on GitHub is important for your futu
 
 3. Still in the `db` folder, create a `seeds.sql` file. In this file, write insert queries to populate the `burgers` table with at least three entries.
 
-4. Run the `schema.sql` and `seeds.sql` files into the mysql server from the command line
+
+
+
+4. Run the `schema.sql` and `seeds.sql` files into the mysql server from the command line   *******   WHAT IS THIS???
 
 5. Now you're going to run these SQL files.
 
@@ -92,6 +97,10 @@ Having an active and healthy commit history on GitHub is important for your futu
 
    * Close out of the MySQL command line tool: `exit`.
 
+
+   *******   MAMP   *******   
+
+
 #### Config Setup
 
 1. Inside your `burger` directory, create a folder named `config`.
@@ -100,7 +109,7 @@ Having an active and healthy commit history on GitHub is important for your futu
 
    * Inside the `connection.js` file, setup the code to connect Node to MySQL.
 
-   * Export the connection.
+   * Export the connection.  *******  ???
 
 3. Create an `orm.js` file inside `config` directory.
 
@@ -112,7 +121,9 @@ Having an active and healthy commit history on GitHub is important for your futu
      * `insertOne()`
      * `updateOne()`
 
-   * Export the ORM object in `module.exports`.
+     
+
+   * Export the ORM object in `module.exports`.  *******  ???
 
 #### Model setup
 
