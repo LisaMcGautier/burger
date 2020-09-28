@@ -16,7 +16,6 @@ function printQuestionMarks(num) {
   return arr.toString();
 }
 
-
 // Helper function to convert object key/value pairs to SQL syntax
 function objToSql(ob) {
   var arr = [];
@@ -39,7 +38,6 @@ function objToSql(ob) {
   return arr.toString();
 }
 
-
 // Object for all our SQL statement functions.
 var orm = {
   selectAll: function (tableInput, cb) {
@@ -51,7 +49,6 @@ var orm = {
       cb(result);
     });
   },
-
 
   insertOne: function (table, cols, vals, cb) {
     var queryString = "INSERT INTO " + table;
@@ -74,7 +71,6 @@ var orm = {
     });
   },
 
-
   // An example of objColVals would be {burger_name: whopper, devoured: true}
   updateOne: function (table, objColVals, condition, cb) {
     var queryString = "UPDATE " + table;
@@ -93,7 +89,6 @@ var orm = {
       cb(result);
     });
   },
-
   
   deleteOne: function (table, condition, cb) {
     var queryString = "DELETE FROM " + table;
@@ -111,7 +106,6 @@ var orm = {
     });
   }
 };
-
 
 // Export the orm object for the model (burger.js).
 module.exports = orm;

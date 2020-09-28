@@ -9,4 +9,5 @@ INSERT INTO burgers (burger_name, devoured) VALUES ('Pizza Burger', false);
 INSERT INTO burgers (burger_name, devoured) VALUES ('Steak Burger', false);
 INSERT INTO burgers (burger_name, devoured) VALUES ('Turkey Burger', false);
 INSERT INTO burgers (burger_name, devoured) VALUES ('Veggie Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Bamble Burger', false);
 INSERT INTO burgers (burger_name, devoured) VALUES ('Triple Cheeseburger', false);

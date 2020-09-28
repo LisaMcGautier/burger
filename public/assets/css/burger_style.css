@@ -1,24 +1,45 @@
 body {
-    background-image: linear-gradient(blue, white);
-};
+    /* background-image: linear-gradient(blue, white); */
+    background-color: lightskyblue
+}
 
-div:not(.row) {
+/* div:not(.row) {
     border: solid 1px;
     min-height: 50px;
-};
+} */
 
-/* .navbar {
-
-}; */
+.navbar {
+    text-align: center;
+}
 
 #wanna {
     background-color: red;
-};
+}
 
-#search {
+#add {
     background-color: yellow;
-};
+}
 
 #devoured {
     background-color: green;
 }
+
+/* li {
+    padding: 5px;
+    margin: 5px;
+    background: #faebd7;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.create-form {
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
+}
+
+.form-group {
+    margin-bottom: 5px;
+} */
