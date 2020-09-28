@@ -1,6 +1,5 @@
 body {
-    /* background-image: linear-gradient(blue, white); */
-    background-color: lightskyblue
+    background-image: linear-gradient(blue, white);
 }
 
 /* div:not(.row) {
@@ -9,11 +8,14 @@ body {
 } */
 
 .navbar {
+    background-color: black;
+    color: white;
     text-align: center;
 }
 
 #wanna {
     background-color: red;
+    color: white;
 }
 
 #add {
@@ -21,7 +23,8 @@ body {
 }
 
 #devoured {
-    background-color: green;
+    /* background-color: green; */
+    color: white;
 }
 
 /* li {
