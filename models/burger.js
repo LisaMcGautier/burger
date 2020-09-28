@@ -31,5 +31,7 @@ let burger = {
     }
 };
 
-// Export the database functions for the controller (catsController.js).
+// Export the database functions for the controller (burgers_controller.js).
 module.exports = burger;
+
+// This file calls the functions that were declared int the orm.js file.

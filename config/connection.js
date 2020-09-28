@@ -22,4 +22,4 @@ connection.connect(function(err) {
 // Export connection for ORM to use.
 module.exports = connection;
 
-
+// This file allows the terminal to interact with the database in My SQL.

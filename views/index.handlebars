@@ -28,9 +28,9 @@
               <p>
                 {{this.id}}. {{this.burger_name}}
 
-                <button class="eat-burger" data-id="{{id}}" data-devouredState="{{newDevoured}}"> DEVOUR!! </button>
+                <button class="eat-burger" data-id="{{id}}" data-devouredState="{{devoured}}"> DEVOUR!! </button>
 
-                <button data-burger_name="{{this.id}}" class="delBurger">Delete</button>
+                <button data-id="{{id}}" class="delete-burger">Delete</button>
               </p>
             </li>
 
@@ -43,7 +43,7 @@
 
     <div id="search" class="col-sm-4 p-3 mb-2 bg-warning text-dark">
 
-      <h2>Burger Search</h2>
+      <h2>ADD Burger</h2>
         <form class="create-form">
 
           <div class="form-group">
@@ -51,7 +51,7 @@
             <input type="text" id="newburger" name="name">
           </div>
 
-          <button type="submit">Save Burger</button>
+          <button type="submit">Add Burger</button>
         </form>
 
     </div>
@@ -67,7 +67,7 @@
               <p>
                 {{this.id}}. {{this.burger_name}}
 
-                <button data-burger_name="{{this.id}}" class="delBurger">Delete!</button>
+                <button data-id="{{id}}" class="delete-burger">Delete!</button>
 
               </p>
 
@@ -90,10 +90,10 @@
     $(".eat-burger").on("click", function (event) {
 
       var id = $(this).data("id");
-      var newDevoured = $(this).data("newdevoured");
+      // var newDevoured = $(this).data("newdevoured");
 
       var devouredState = {
-        devoured: newDevoured
+        devoured: true
       };
 
       // Send the PUT request.
@@ -115,7 +115,7 @@
 
       var newBurger = {
         burger_name: $("#newburger").val().trim(),
-        devoured: false
+        //devoured: false
       };
 
       // Send the POST request.
@@ -138,7 +138,7 @@
       // Send the DELETE request.
       $.ajax("/api/burgers/" + id, {
         type: "DELETE"
-      }).then(
+      }).then(        
         function () {
           console.log("Deleted burger", id);
           // Reload the page to get the updated list
@@ -148,3 +148,6 @@
     });
   });
 </script>
+
+{{!-- This file determines the HTML that will update dynamically on the front-end, 
+      as well as the JQuery that will trigger the functionality determined by the user. --}}

@@ -115,3 +115,5 @@ var orm = {
 
 // Export the orm object for the model (burger.js).
 module.exports = orm;
+
+// This file defines the functions that will be used to interact with the database.
