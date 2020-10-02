@@ -63,3 +63,7 @@ npm test
 If you have any questions about the repo, open an issue or contact me directly at dlanodcm4517@gmail.com
 
 You can find more of my work at [GITHUBrepo](https://github.com/lisamcgautier)
+
+https://shrouded-river-48289.herokuapp.com/
+
+https://lisamcgautier.github.io/updatedPortfolio/portfolio.html
