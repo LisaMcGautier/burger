@@ -1,4 +1,7 @@
 # Eat-da-Burger
+
+![Screenshot (79)](https://user-images.githubusercontent.com/62854999/97097079-abbee880-1642-11eb-8848-c5f55c93a068.png)
+
 No license selected
 
 ## Description
